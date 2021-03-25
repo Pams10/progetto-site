@@ -1,0 +1,56 @@
+@charset "UFT-8";
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+body , html{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: rgba(238, 235, 235, 0.4);
+    font-family: 'Arial', 'Raleway' , sans-serif;
+}
+
+.container h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.about article h2 {
+    text-align: center;
+
+}
+
+.about article{
+    margin-top: 10px;
+}
+.about{
+    text-align: center;
+}
+
+.container{
+    float: right;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+  }
+
+.copyright a {
+    color: blue;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+.copyright p span {
+    color:grey;
+}
